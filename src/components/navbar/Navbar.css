@@ -1,0 +1,36 @@
+nav{
+    padding-top: 4rem;
+    width: 100%;
+
+
+    
+
+}
+
+.navs{
+    /* width: 80%; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+}
+li{
+    transition: var(--transition);
+}
+li:hover{
+    color: var(--color-primary-variant);
+    /* padding: 0.25rem; */
+    /* text-decoration: underline; */
+    transition: all 0.9s;
+    transform: rotate(45deg);
+    
+}
+
+nav hr{
+    width: 55%;
+    margin: auto;
+    background-color: var(--color-primary);
+    height: 0.25px;
+    border-radius: 2em;
+}

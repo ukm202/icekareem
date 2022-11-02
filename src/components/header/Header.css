@@ -1,0 +1,66 @@
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+    width: 100% auto;
+}
+
+.header_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+}
+.login:hover{
+    color: var(--color-primary-variant);
+}
+.cart:hover{
+    color: var(--color-primary-variant);
+}
+
+.logo{
+    padding: 0 4vmax 0.75vmax 4vmax; 
+    align-items: center;
+    text-align: center;
+    border-bottom: 5px  solid var(--color-primary);
+    border-radius: 50%;
+    
+}
+.logo:hover{
+    color: var(--color-primary-variant);
+}
+
+/* spin animation */
+.spin-animation1, .spin-animation2{
+    animation: spin-animation1 2s infinite;
+    animation: spin-animation2 2s infinite;
+    transition: all 0.9s;
+
+}
+.spin-animation1:hover, .spin-animation2:hover{
+    color: var(--color-primary-variant);
+
+}
+@keyframes spin-animation1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin-animation2 {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
