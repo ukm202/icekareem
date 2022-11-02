@@ -15,10 +15,10 @@ nav{
     justify-content: center;
     gap: 4rem;
 }
-li{
+.navs > li{
     transition: var(--transition);
 }
-li:hover{
+.navs > li:hover{
     color: var(--color-primary-variant);
     /* padding: 0.25rem; */
     /* text-decoration: underline; */

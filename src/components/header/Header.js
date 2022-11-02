@@ -26,6 +26,7 @@ const Header = () => {
             }}
             // className="spin-animation2"
           />
+          <span className="item_num">3</span>
         </div>
       </div>
     </header>

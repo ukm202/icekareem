@@ -33,6 +33,12 @@ header{
     color: var(--color-primary-variant);
 }
 
+.item_num{
+    color: var(--color-red);
+    font-size: large;
+    font-weight: bold;
+}
+
 /* spin animation */
 .spin-animation1, .spin-animation2{
     animation: spin-animation1 2s infinite;
