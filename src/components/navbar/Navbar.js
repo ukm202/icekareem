@@ -12,6 +12,8 @@ const Navbar = () => {
             </ul>
             <br />
             <hr />
+            <br />
+            <br />
         </nav>
     );
 }

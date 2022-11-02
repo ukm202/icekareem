@@ -28,7 +28,7 @@ li:hover{
 }
 
 nav hr{
-    width: 55%;
+    width: 75%;
     margin: auto;
     background-color: var(--color-primary);
     height: 0.25px;

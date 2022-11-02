@@ -1,4 +1,5 @@
 import Header from "./components/header/Header";
+import Home from "./components/Home/Home";
 import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <>
       <Header />
       <Navbar />
+      <Home />
     </>
   );
 };
